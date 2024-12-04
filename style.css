@@ -1,18 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
+    background-color: #f0f0f0; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
 }
 
-img {
-    max-width: 300px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+h1 {
+    color: #555; /* Cor do título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adiciona um efeito de sombra */
 }
 
 .video-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 20px;
+    background-color: #e0e0e0; /* Cor de fundo dos vídeos */
+    border: 1px solid #ddd;
+    padding: 20px;
 }
