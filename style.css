@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0; /* Cor de fundo suave */
-    color: #333333; /* Cor do texto */
+    color: #33333359; /* Cor do texto */
 }
 
 h1 {
-    color: #555; /* Cor do título */
+    color: #55555585; /* Cor do título */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adiciona um efeito de sombra */
 }
 
@@ -42,3 +42,27 @@ h1 {
     overflow: auto;
     gap: 15 px;
     }
+    body{
+        color: black;
+        background-color: plum;
+        }
+        
+        section{
+        background: rgb(205, 205, 240);
+        padding-bottom: 5px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+        }
+        
+        .chamada-texto{
+        margin-right: 5%;
+        }
+        img{
+        height: 200px;
+        }
+        .categorias_videos{
+        display: flex;
+        overflow: auto;
+        gap: 15 px;
+        }
